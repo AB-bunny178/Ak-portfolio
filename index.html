@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/main-logo-photoaidcom-cropped.jpg" alt="Akanksha" width="50">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Akanksha Varma</h1>
+
+          <p class="title">STEM DESIGNER</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akanksha15v@gmail.com" class="contact-link">akanksha15v@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918625867089" class="contact-link">+91 8625867089</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="15/7/1997">15-7-1997</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nagpur, Maharastra, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://x.com/akv862586?t=ns_7f0tudgWEVxNud7H2yw&s=09" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/akanksha-verma-a2272b138?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I'm a Technical Trainer and Researcher from India, specializing in AI, IoT, Robotics, and Programming Education. 
+           I focus on transforming complex technologies into accessible, hands-on learning experiences.
+          </p>
+
+          <p>
+            My role is to equip students and professionals with industry-relevant skills through interactive workshops, coding bootcamps, and project-based learning. I bring a creative, practical approach to every session, ensuring concepts are both understood and applied. My goal is to bridge the gap between academic theory and real-world innovation. 
+            I’ve trained learners across top institutes and mentored numerous projects that merge AI and IoT into impactful, functional solutions.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+       <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/aiml.jpg" alt="AI icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+        <p class="service-item-text">
+          Delivering hands-on training in AI/ML using Python, real-world projects, and open-source tools like TensorFlow.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/iot.jpg" alt="IoT icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">IoT & Robotics</h4>
+        <p class="service-item-text">
+          Conducting interactive sessions on smart devices, sensor integration, and autonomous systems.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/programming.jpg" alt="coding icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Programming Training</h4>
+        <p class="service-item-text">
+          Teaching Python, Java, C++, and DSA through project-based learning and competitive coding guidance.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/mentoring.jpg" alt="mentor icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Workshops & Mentoring</h4>
+        <p class="service-item-text">
+          Mentoring students in innovation challenges, capstone projects, and hackathons at leading institutes.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+        <!--
+          - testimonials
+        -->
+
+<section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <!-- <img src="./assets/images/avatar-iit.png" alt="Dr. Rajiv Kumar" width="60" data-testimonials-avatar> -->
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Rajiv Kumar</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Akanksha conducted a brilliant workshop on Generative AI at IIT Hyderabad. Her expertise, hands-on approach,
+            and ability to connect with students made the session a huge success.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <!-- <img src="./assets/images/avatar-vnit.png" alt="Prof. Neha Sharma" width="60" data-testimonials-avatar> -->
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Prof. Neha Sharma</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            The Gen AI Bootcamp delivered by Akanksha at VNIT was outstanding. Her real-world examples and clarity in
+            explaining complex concepts were highly appreciated by all participants.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <!-- <img src="./assets/images/avatar-student.png" alt="Amit Rao" width="60" data-testimonials-avatar> -->
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Amit Rao</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            I attended Akanksha ma’am's Python and IoT workshop. She made every concept so simple and relatable that I
+            was able to build my own smart device by the end of the session.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+
+        <figure class="testimonials-avatar-box">
+          <!-- <img src="./assets/images/avatar-principal.png" alt="Principal D.K. Mishra" width="60" data-testimonials-avatar> -->
+        </figure>
+
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Principal D.K. Mishra</h4>
+
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Akanksha’s sessions on AI and robotics have transformed our school's approach to STEM. Her energy and
+            dedication are truly inspiring for both students and staff.
+          </p>
+        </div>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+      <div class="modal-container" data-modal-container>
+
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <!-- <img src="./assets/images/avatar-iit.png" alt="Dr. Rajiv Kumar" width="80" data-modal-img> -->
+      </figure>
+
+      <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon"> -->
+    </div>
+
+    <div class="modal-content">
+
+      <h4 class="h3 modal-title" data-modal-title>Dr. Rajiv Kumar</h4>
+
+      <time datetime="2024-11-20">20 November, 2024</time>
+
+      <div data-modal-text>
+        <p>
+          Akanksha conducted a brilliant workshop on Generative AI at IIT Hyderabad. Her expertise, hands-on approach,
+          and ability to connect with students made the session a huge success. She is not only a domain expert but also
+          a truly inspiring educator who understands how to make innovation come alive.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.webp" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/delhi-university.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/KITSW_OfficiaLogo.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/RBU_University's_logo.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+
+  <!-- Education Section -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Master of Science in Mathematics</h4>
+        <span>2013 — 2015</span>
+        <p class="timeline-text">
+          Completed with a CGPA of 8.12 from Chatrapati Sahuji Maharaj University, Kanpur. Focused on analytical problem-solving and mathematical modeling.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Bachelor of Science</h4>
+        <span>2010 — 2013</span>
+        <p class="timeline-text">
+          Graduated with a CGPA of 7.3, building a strong foundation in mathematics and logical reasoning for future specialization in AI and IoT domains.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- Experience Section -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">IoT & Robotics Trainer – BrightChamps (Freelance)</h4>
+        <span>2021 — Present</span>
+        <p class="timeline-text">
+          Designed and delivered comprehensive IoT and robotics training programs, integrating AI applications and real-world smart system solutions.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">STEM Educator & Designer</h4>
+        <span>2017 — Present</span>
+        <p class="timeline-text">
+          Led interdisciplinary projects in AI, robotics, and design thinking; mentored students through practical projects and workshops across India.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Trainer – GEN AI & Innovation (IIT Hyderabad, VNIT, DTU, etc.)</h4>
+        <span>2020 — 2024</span>
+        <p class="timeline-text">
+          Conducted bootcamps and capstone project guidance in Generative AI and machine learning for top-tier engineering institutes.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Mentor of Change – Atal Innovation Mission, NITI Aayog</h4>
+        <span>2018 — Present</span>
+        <p class="timeline-text">
+          Mentored school and college students in innovation challenges and national-level hackathons, promoting entrepreneurship and tech learning.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skill">
+
+    <h3 class="h3 skills-title">My Skills</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Python Programming</h5>
+          <data value="95">95%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 95%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Artificial Intelligence & ML</h5>
+          <data value="90">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Internet of Things (IoT)</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Robotics & Sensor Interfacing</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">C++ & Java</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+ <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>IOT & Robotics</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Education Tools</button>
+            </li>
+
+                 <li class="filter-item">
+              <button data-filter-btn>Sustainability</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>IOT & Robotics</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Eduaction Tools</button>
+              </li>
+
+                <li class="select-item">
+                <button data-select-item>Sustainability</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="AI Projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-ai.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Generative AI Bootcamp</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="AI Projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-nlp.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI & NLP Case Studies</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="AI Projects">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-hackathon.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hackathon Mentoring</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="IOT & Robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-iot.webp" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart IoT Devices</h3>
+
+                <p class="project-category">IOT & Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="IOT & Robotics">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-arduino.jpeg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sensor Integration with Arduino</h3>
+
+                <p class="project-category">IOT & Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Education Tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-coding.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python for Beginners</h3>
+
+                <p class="project-category">Education Tools</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Education Tools">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-olympiad.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coding for Olympiads</h3>
+
+                <p class="project-category">Education Tools</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Sustainability">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-solar.webp" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Solar Innovation Projects</h3>
+
+                <p class="project-category">Sustainability</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+     <article class="contact" data-page="contact">
+
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="mapbox" data-mapbox>
+    <figure>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119065.02905812931!2d78.99010853386426!3d21.16106590212765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1754415723567!5m2!1sen!2sin"
+        width="400" height="300" loading="lazy"></iframe>
+    </figure>
+  </section>
+
+  <form action="https://formspree.io/f/mzzvjjel" method="POST" class="form" data-form>
+
+  <!-- Optional: Custom success redirect (or remove to stay on same page) -->
+  <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html">
+
+  <!-- Optional: Disable CAPTCHA -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+  </div>
+
+  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+  <button class="form-btn" type="submit" data-form-btn>
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+
+</form>
+
+
+</article>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
