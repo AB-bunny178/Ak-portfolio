@@ -645,228 +645,188 @@ This journey is not just STEM — it’s STEAM: Science, Technology, Engineering
         - #PORTFOLIO
       -->
 
- <article class="portfolio" data-page="portfolio">
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+
+      <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>AI Projects</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>IOT & Robotics</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Education Tools</button>
+      </li>
+
+      <li class="filter-item">
+        <button data-filter-btn>Sustainability</button>
+      </li>
+
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>AI Projects</button></li>
+        <li class="select-item"><button data-select-item>IOT & Robotics</button></li>
+        <li class="select-item"><button data-select-item>Education Tools</button></li>
+        <li class="select-item"><button data-select-item>Sustainability</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+
+      <!-- Sustainability Projects -->
+      <li class="project-item active" data-filter-item data-category="Sustainability">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-plant.jpg" alt="Plant Health Monitoring" loading="lazy">
+          </figure>
+          <h3 class="project-title">Plant Health Monitoring & Control System</h3>
+          <p class="project-category">Sustainability</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Sustainability">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-wireless.jpg" alt="Wireless Charging Lane" loading="lazy">
+          </figure>
+          <h3 class="project-title">Wireless Charging Lane</h3>
+          <p class="project-category">Sustainability</p>
+        </a>
+      </li>
+
+      <!-- IoT & Robotics -->
+      <li class="project-item active" data-filter-item data-category="IOT & Robotics">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-automation.jpg" alt="Automation Systems" loading="lazy">
+          </figure>
+          <h3 class="project-title">Automation Systems</h3>
+          <p class="project-category">IoT & Robotics</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="IOT & Robotics">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-street.jpg" alt="Smart Street Control" loading="lazy">
+          </figure>
+          <h3 class="project-title">Smart Street Control System</h3>
+          <p class="project-category">IoT & Robotics</p>
+        </a>
+      </li>
+
+      <!-- Education Tools -->
+      <li class="project-item active" data-filter-item data-category="Education Tools">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-edu.jpg" alt="Experimental Education Models" loading="lazy">
+          </figure>
+          <h3 class="project-title">Experimental Education Models</h3>
+          <p class="project-category">Education Tools</p>
+        </a>
+      </li>
+
+      <!-- AI Projects (Student-led) -->
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/prajyot2003/gpt2-text-generator" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-ai.jpg" alt="Prajyot GPT-2 Generator" loading="lazy">
+          </figure>
+          <h3 class="project-title">Prajyot – GPT-2 Text Generator</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/slurpio/Megan-AI" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-nlp.jpg" alt="Megan AI" loading="lazy">
+          </figure>
+          <h3 class="project-title">Saksham Kochar – Megan AI</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/deekshasoota/mygenaitext-generator" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-ml.jpg" alt="MyGenAI Text Generator" loading="lazy">
+          </figure>
+          <h3 class="project-title">Deeksha Soota – MyGenAI Text Generator</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/Sanjay1203/gpt2-text-generator" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-hackathon.jpg" alt="Sanjay GPT-2 Generator" loading="lazy">
+          </figure>
+          <h3 class="project-title">Sanjay Bhakhar – GPT-2 Text Generator</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/krishna34-aimlcurious/AI_ML_CURIOUS" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-curious.jpg" alt="AI_ML_CURIOUS" loading="lazy">
+          </figure>
+          <h3 class="project-title">Krishna – AI_ML_CURIOUS</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="AI Projects">
+        <a href="https://huggingface.co/spaces/sohamauluck/text-to-image-generator" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/project-vision.jpg" alt="Text-to-Image Generator" loading="lazy">
+          </figure>
+          <h3 class="project-title">Soham Auluck – Text-to-Image Generator</h3>
+          <p class="project-category">AI Projects</p>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>AI Projects</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>IOT & Robotics</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Education Tools</button>
-            </li>
-
-                 <li class="filter-item">
-              <button data-filter-btn>Sustainability</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>AI Projects</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>IOT & Robotics</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Eduaction Tools</button>
-              </li>
-
-                <li class="select-item">
-                <button data-select-item>Sustainability</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="AI Projects">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-ai.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Generative AI Bootcamp</h3>
-
-                <p class="project-category">AI Projects</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="AI Projects">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-nlp.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AI & NLP Case Studies</h3>
-
-                <p class="project-category">AI Projects</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="AI Projects">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-hackathon.jpg" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hackathon Mentoring</h3>
-
-                <p class="project-category">AI Projects</p>
-
-              </a>
-            </li>
-
-
-            <li class="project-item  active" data-filter-item data-category="IOT & Robotics">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-iot.webp" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Smart IoT Devices</h3>
-
-                <p class="project-category">IOT & Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="IOT & Robotics">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-arduino.jpeg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Sensor Integration with Arduino</h3>
-
-                <p class="project-category">IOT & Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Education Tools">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-coding.jpg" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Python for Beginners</h3>
-
-                <p class="project-category">Education Tools</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Education Tools">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-olympiad.jpg" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Coding for Olympiads</h3>
-
-                <p class="project-category">Education Tools</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Sustainability">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-solar.webp" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Solar Innovation Projects</h3>
-
-                <p class="project-category">Sustainability</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
 
       <!--
         - #CONTACT
