@@ -694,36 +694,21 @@ This journey is not just STEM — it’s STEAM: Science, Technology, Engineering
 
   <section class="projects">
 
+    <!-- Filter Buttons -->
     <ul class="filter-list">
-
-      <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>AI Projects</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>IOT & Robotics</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>Education Tools</button>
-      </li>
-
-      <li class="filter-item">
-        <button data-filter-btn>Sustainability</button>
-      </li>
-
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>AI Projects</button></li>
+      <li class="filter-item"><button data-filter-btn>IOT & Robotics</button></li>
+      <li class="filter-item"><button data-filter-btn>Education Tools</button></li>
+      <li class="filter-item"><button data-filter-btn>Sustainability</button></li>
+      <li class="filter-item"><button data-filter-btn>Session</button></li>
     </ul>
 
+    <!-- Filter Dropdown -->
     <div class="filter-select-box">
       <button class="filter-select" data-select>
         <div class="select-value" data-selecct-value>Select category</div>
-        <div class="select-icon">
-          <ion-icon name="chevron-down"></ion-icon>
-        </div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
       </button>
 
       <ul class="select-list">
@@ -732,12 +717,14 @@ This journey is not just STEM — it’s STEAM: Science, Technology, Engineering
         <li class="select-item"><button data-select-item>IOT & Robotics</button></li>
         <li class="select-item"><button data-select-item>Education Tools</button></li>
         <li class="select-item"><button data-select-item>Sustainability</button></li>
+        <li class="select-item"><button data-select-item>Session</button></li>
       </ul>
     </div>
 
+    <!-- Project Items -->
     <ul class="project-list">
 
-      <!-- Sustainability Projects -->
+      <!-- Sustainability -->
       <li class="project-item active" data-filter-item data-category="Sustainability">
         <a href="#">
           <figure class="project-img">
@@ -795,7 +782,7 @@ This journey is not just STEM — it’s STEAM: Science, Technology, Engineering
         </a>
       </li>
 
-      <!-- AI Projects (Student-led) -->
+      <!-- AI Projects -->
       <li class="project-item active" data-filter-item data-category="AI Projects">
         <a href="https://huggingface.co/spaces/prajyot2003/gpt2-text-generator" target="_blank">
           <figure class="project-img">
@@ -862,10 +849,119 @@ This journey is not just STEM — it’s STEAM: Science, Technology, Engineering
         </a>
       </li>
 
+      <!-- New SESSION Category -->
+      <!-- Plant & Agriculture -->
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Smart Leaf Health Detector using OpenCV</h3>
+          <p class="project-category">Plant & Agriculture</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Agriculture Assistant: Real-time Plant Monitoring</h3>
+          <p class="project-category">Plant & Agriculture</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Crop Disease Identifier (Rule-based)</h3>
+          <p class="project-category">Plant & Agriculture</p>
+        </a>
+      </li>
+
+      <!-- Color & Object Detection -->
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Intelligent Color Recognition System</h3>
+          <p class="project-category">Color & Object Detection</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Smart Object Highlighter</h3>
+          <p class="project-category">Color & Object Detection</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Automatic Fruit Ripeness Detector</h3>
+          <p class="project-category">Color & Object Detection</p>
+        </a>
+      </li>
+
+      <!-- Human-Centric -->
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">AI Mood Detector with OpenCV</h3>
+          <p class="project-category">Human-Centric</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Smart Attendance System (Face Detection)</h3>
+          <p class="project-category">Human-Centric</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Gesture-Controlled System</h3>
+          <p class="project-category">Human-Centric</p>
+        </a>
+      </li>
+
+      <!-- Smart City -->
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Traffic Light Color Recognition System</h3>
+          <p class="project-category">Smart City & Safety</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Vehicle Counter using OpenCV</h3>
+          <p class="project-category">Smart City & Safety</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Helmet Detection System</h3>
+          <p class="project-category">Smart City & Safety</p>
+        </a>
+      </li>
+
+      <!-- Fun / Creative -->
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Virtual Painter with OpenCV</h3>
+          <p class="project-category">Fun / Creative</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">AR Mask Filter</h3>
+          <p class="project-category">Fun / Creative</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Session">
+        <a href="#">
+          <h3 class="project-title">Motion-Controlled Game</h3>
+          <p class="project-category">Fun / Creative</p>
+        </a>
+      </li>
+
     </ul>
-
   </section>
-
 </article>
 
 
